@@ -1,0 +1,50 @@
+
+.training {
+    margin-top: 220px;
+    display: flex;
+}
+
+.training-container {
+    display: flex;
+    margin: 0 auto;
+    width: 1488px;
+    justify-content: space-between;
+}
+
+.training-exercises > * + * {
+    margin-top: 35px;
+}
+
+.training-exercises__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.training-exercises__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.training-title {
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.training-title__photo {
+    margin-top: 85px;
+    border: 0;  
+    border-radius: 50%;
+}
+
+.training-title__text {
+    margin-top: 32px;
+    width: 500px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 60px;
+}

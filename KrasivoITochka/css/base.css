@@ -1,0 +1,17 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.body {
+    width: 1920px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B1815;
+}
+
+.body i {
+    font-style: normal;
+    color: #BA936B;
+}

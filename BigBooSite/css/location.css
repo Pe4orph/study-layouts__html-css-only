@@ -1,0 +1,15 @@
+
+.location {
+    margin: 300px auto 0;
+}
+
+.location__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 90px;
+
+}
+
+.location__img {
+    margin-top: 160px;
+}

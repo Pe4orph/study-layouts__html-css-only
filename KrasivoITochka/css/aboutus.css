@@ -1,0 +1,29 @@
+
+.aboutus {
+    width: 1920px;
+    height: 700px;
+    background: url(../img/aboutus/aboutus-bg.jpg);
+    background-size: cover;
+
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.aboutus-container {
+    width: 803px;
+    padding: 50px 64px 40px;
+    margin-left: 819px;
+    text-align: justify;
+}
+
+.aboutus__title {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.aboutus__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}

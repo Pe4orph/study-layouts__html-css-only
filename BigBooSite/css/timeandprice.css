@@ -1,0 +1,92 @@
+
+.timeandprice {
+    width: 1567px;
+    margin: 300px auto 0;
+}
+
+.timeandprice-container {
+    display: flex;
+    margin: 0 auto;
+    width: 1488px;
+    justify-content: space-between;
+}
+
+.timeandprice-title {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeandprice-title__img {
+    margin-top: 45px;
+    border: 0;  
+    border-radius: 50%;
+}
+
+.timeandprice-title__text {
+    margin-top: 30px;
+
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.timeandprice-table {
+    width: 720px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    padding: 36px 67px 37px 32px;
+}
+
+.table-head {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-head > * + * {
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.table-head__title {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.table-body {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 750px;
+}
+
+.table-body-row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.table-body-row > * + *{
+    margin-left: 232px;
+}
+
+.table-body-row__time {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+
+}
+.table-body-row__price {
+    font-family: 'Alice', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5;
+    margin-right: 30px;
+}

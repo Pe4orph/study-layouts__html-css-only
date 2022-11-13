@@ -1,0 +1,39 @@
+
+/* Header */
+
+.header {
+    margin-bottom: 60px;
+}
+
+.header__row {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+
+    width: 670px;
+    height: 389px;
+}
+
+.header__title {
+    margin: 0;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.header__text {
+    width: 600px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}

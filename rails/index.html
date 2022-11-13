@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./main.css" />
+		<title>Рельсы-Шпалы</title>
+	</head>
+	<body class="body">
+		<header class="header">
+			<div class="logo">
+				<h1 class="logo__text">Рельсы-Шпалы</h1>
+			</div>
+			<nav class="nav">
+				<a href="#!" class="nav__link link--active">Пассажирам</a>
+				<a href="#!" class="nav__link">Горячие билеты</a>
+				<a href="#!" class="nav__link">Работа в РШ</a>
+				<a href="#!" class="nav__link">Контакты</a>
+			</nav>
+			<a href="#!" class="login">
+				<div class="login__text">Вход</div>
+				<img src="./img/header-login.svg" alt="" class="login__img" />
+			</a>
+		</header>
+		<section class="main">
+			<nav class="main-nav">
+				<a href="#!" class="main-nav__link main__link--active"
+					>Купить билет</a
+				>
+				<a href="#!" class="main-nav__link">Поезда и маршруты</a>
+				<a href="#!" class="main-nav__link">Вокзалы</a>
+				<a href="#!" class="main-nav__link">Правила</a>
+				<a href="#!" class="main-nav__link">Информация</a>
+			</nav>
+			<div class="main-container">
+				<h1 class="main-title">
+					<i>КУПИТЬ БИЛЕТ</i> , ПОСМОТРЕТЬ РАСПИСАНИЕ
+				</h1>
+				<div class="main-form">
+					<input
+						id="wherefrom"
+						class="main-form__input"
+						type="text"
+						placeholder="Откуда"
+					/>
+					<input
+						id="whereto"
+						class="main-form__input"
+						type="text"
+						placeholder="Куда"
+					/>
+					<input
+						id="thereto"
+						class="main-form__input"
+						type="text"
+						placeholder="Туда"
+					/>
+					<input
+						id="backto"
+						class="main-form__input"
+						type="text"
+						placeholder="Обратно"
+					/>
+					<button class="main-form__button">НАЙТИ</button>
+				</div>
+			</div>
+		</section>
+		<section class="info">
+			<div class="info-grid">
+				<!-- first row  -->
+				<div class="info-card">
+					<a href="#!" class="card-title">
+						<h2 class="card-title__text">Мои билеты</h2>
+						<img src="./img/arrow-right-black.svg" alt="" />
+					</a>
+					<p class="card__text">
+						Для просмотра купленных билетов необходимо
+						авторизоваться на официальном сайте РШ
+					</p>
+					<div class="card-login">
+						<a href="#!" class="card-login__button">Войти</a>
+						<div class="card-registration">
+							<div class="card-registration__text">
+								Нет аккаунта?
+							</div>
+							<a href="#!" class="card__link"
+								>Зарегистрироваться</a
+							>
+						</div>
+					</div>
+				</div>
+				<div class="info-card">
+					<a href="#!" class="card-title">
+						<h2 class="card-title__text">Купить VIP-билеты</h2>
+						<img src="./img/arrow-right-black.svg" alt="" />
+					</a>
+					<p class="card__text" style="margin-bottom: 90px">
+						Информация о бонусных баллах недоступна для
+						неавторизованных пользователей.
+					</p>
+					<a href="#!" class="card__link">Выбрать билеты</a>
+				</div>
+				<a href="#!" class="info-card card--table">
+					<div class="card-title">
+						<h2 class="card-title__text">Акции и скидки</h2>
+						<img src="./img/arrow-right-white.svg" alt="" />
+					</div>
+					<table class="card__table">
+						<tr>
+							<td>"Большая семья"</td>
+							<td>Скидка 10%</td>
+						</tr>
+						<tr>
+							<td>“Целое купе”</td>
+							<td>Скидка 15%</td>
+						</tr>
+						<tr>
+							<td>“Для студентов”</td>
+							<td>Скидка 20%</td>
+						</tr>
+						<tr>
+							<td>“Для детей”</td>
+							<td>Скидка 25%</td>
+						</tr>
+					</table>
+				</a>
+				<!-- first row -->
+
+				<!-- second row -->
+				<a href="#!" class="info-card card--gray">
+					<h2 class="card__title">Перед поездкой</h2>
+					<p class="card__text text--white">Информация в дорогу</p>
+					<h2
+						class="card__title"
+						style="margin-bottom: 6px; margin-top: 28px"
+					>
+						8 966 190-93-62
+					</h2>
+					<p class="card__text text--white">
+						заказ билета по телефону
+					</p>
+					<img
+						class="card-arrow-white"
+						src="./img/arrow-right-white.svg"
+						alt=""
+					/>
+				</a>
+				<a href="#!" class="info-card card--gray">
+					<h2 class="card__title">В поезде</h2>
+					<p class="card__text text--white">
+						Услуги в поезде, доставка еды к поезду, категории
+						поездов, типы вагонов
+					</p>
+					<img
+						class="card-arrow-white"
+						src="./img/arrow-right-white.svg"
+						alt=""
+					/>
+				</a>
+				<a href="#!" class="info-card card--gray">
+					<h2 class="card__title">После поездки</h2>
+					<p class="card__text text--white">
+						Услуги после поездки, поиск забытых вещей
+					</p>
+					<img
+						class="card-arrow-white"
+						src="./img/arrow-right-white.svg"
+						alt=""
+					/>
+				</a>
+				<!-- second row -->
+			</div>
+		</section>
+		<section class="mobile">
+			<div class="mobile-container">
+				<h1 class="mobile__title">
+					Мобильное приложение для пассажиров
+				</h1>
+				<p class="mobile__text">
+					Мобильный сервис по продаже билетов на поезда дальнего
+					следования без наценок и переплат
+				</p>
+				<a href="#!" class="mobile__button">ПОДРОБНЕЕ</a>
+			</div>
+		</section>
+		<section class="news">
+			<h1 class="news__title">Новости</h1>
+			<div class="news-grid">
+				<div class="news-card">
+					<div class="news-card-content">
+						<p class="news-card__title">
+							Поезд Деда Мороза отправился из Великого Устюга в
+							путешествие по России
+						</p>
+
+						<p class="news-card__tag">Мероприятия</p>
+					</div>
+					<p class="news-card__date">22.11.2022</p>
+				</div>
+				<div class="news-card">
+					<div class="news-card-content">
+						<p class="news-card__title">
+							График движения на 2022-2023 годы: оптимизируем
+							расписание, осваиваем новые маршруты, увеличиваем
+							составность поездов
+						</p>
+
+						<p class="news-card__tag">Расписание</p>
+					</div>
+					<p class="news-card__date">21.11.2022</p>
+				</div>
+				<div class="news-card">
+					<div class="news-card-content">
+						<p class="news-card__title">
+							Новый ТПУ, объединивший железнодорожный и городской
+							общественный транспорт, открыт сегодня в Казани
+						</p>
+
+						<p class="news-card__tag">Инфраструктура</p>
+					</div>
+					<p class="news-card__date">13.11.2022</p>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer-conainer">
+				<div class="footer-contats">
+					<div class="footer-contacts-grid">
+						<div class="contacts__item">
+							<h1 class="contacts__phone">8 800 555-35-35</h1>
+							<p class="contacts__desc">
+								Звонок бесплатный для всех регионов РФ
+							</p>
+						</div>
+						<div class="contacts__item">
+							<h1 class="contacts__phone">8 800 537-69-34</h1>
+							<p class="contacts__desc">
+								По всему миру, оплата в соответсвии вашего
+								оператора свящи
+							</p>
+						</div>
+						<div class="contacts__item">
+							<h1 class="contacts__phone">relsyshpaly@rujd.ru</h1>
+							<p class="contacts__desc">
+								Для вопросов, связанных с электронными билетами
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-mobiles">
+					<h1 class="footer-mobiles__title">
+						Рельсы-Шпалы в вашем телефоне
+					</h1>
+					<div class="footer-links">
+						<a href="#!" class="footer-mobiles__link">App Store</a>
+						<a href="#!" class="footer-mobiles__link"
+							>Google Play</a
+						>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

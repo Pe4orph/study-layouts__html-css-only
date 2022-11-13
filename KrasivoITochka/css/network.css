@@ -1,0 +1,152 @@
+
+.network {
+    margin: 140px auto 215px;
+}
+
+.network__title {
+    font-size: 40px;
+    font-weight: 600;
+
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.network-container {
+    margin: 0 auto;
+    width: 1530px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.network-main {
+   width: 760px; 
+}
+
+.network-info {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .network-contacts {
+
+} */
+
+.network-contacts__number {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+}
+
+.network-contacts__address {
+    margin-top: 15px;
+    color: #333333;
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* .network-schedule {
+
+} */
+
+.network-schedule__title {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+}
+
+.network-schedule__time {
+    margin-top: 15px;
+    color: #333333;
+
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.network-button {
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.network-contacts__services-button{
+    margin-top: 75px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #BA936B;
+    padding: 14px 19px;
+
+    text-decoration: none;
+    color: #BA936B;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+
+    text-align: center;
+}
+
+
+.network-contacts__register-button{
+    margin-top: 27px;
+
+    display: inline-block;
+    background-color: #BA936B;
+    padding: 16px 108px 16px 107px;
+
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+.network-locations {
+    width: 560px;
+}
+
+.network-locations__select-button {
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+
+    display: inline-block;
+    border: 2px solid #BA936B;
+    padding: 18px 162px 19px 175px;
+
+    margin-bottom: 27px;
+
+}
+
+.network-locations__metros {
+    display: grid;
+    justify-content: right;
+    margin-right: -12px;
+
+    grid-template-columns: 226px 254px;
+    grid-template-rows: repeat(10, 27px);
+    grid-auto-flow: column;
+    
+    row-gap: 42px;
+    column-gap: 75px;
+
+}
+
+.network-locations__metro {
+    height: 27px;
+    display: flex;
+    align-items: center;
+
+    color: #333333;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.205em;
+}
+
+.network-locations__metro img{
+    margin-right: 14px;
+}

@@ -1,0 +1,58 @@
+
+.discounts {
+    width: 1920px;
+    height: 867px;
+
+    background: url(../img/discounts/discounts-photo.jpg);
+}
+
+.discounts__title {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    padding: 15px 0 0 175px;
+    margin-bottom: 95px;
+}
+
+.discounts-table {
+    margin-left: 200px;
+    width: 610px;
+    padding: 10px;
+    background-color: rgba(53, 47, 41, 0.2);
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 3px;
+}
+
+.table-head {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 100px;
+    text-align: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    color: #1F1818;
+}
+
+.table-body div{
+    display: grid;
+    grid-template-columns: repeat(2, 305px);
+    grid-template-rows: 105px;
+
+    text-align: center;
+    align-items: center;
+    
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.table-body img {
+    margin-left: 46px
+}

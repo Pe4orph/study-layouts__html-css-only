@@ -1,0 +1,37 @@
+
+.benefits {
+    margin: 0 auto 70px;
+}
+
+.benefits__title {
+    margin: 0;
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 77px;
+}
+
+.benefits-row {
+    margin: 0 auto;
+    width: 1030px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits__item {
+    text-align: center;
+}
+
+.benefits__img {
+    filter: drop-shadow(5px 6px 4px rgba(74, 74, 74, 0.4));
+}
+
+.benefits__text {
+    color: #000;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 22px;
+}

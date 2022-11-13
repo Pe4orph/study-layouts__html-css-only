@@ -1,0 +1,115 @@
+
+.main {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.main-content {
+    height: 673px;
+    background: url(../img/header/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+    color: #fff;
+    display: flex;
+}
+
+.main-discount {
+    width: 270px;
+}
+
+.main-discount-container {
+    margin-top: 15px;
+    border: 1px solid #E3E3E3;
+}
+
+.main-discount__oldprice {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    text-decoration: line-through;
+    text-decoration-color: #BA936B;
+    text-decoration-thickness: 3px;
+
+    margin: 20px 100px 15px 36px;
+}
+
+.main-discount__newprice {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+
+    margin-bottom: 25px;
+}
+
+.main-discount__subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+
+    text-align: center;
+    margin: 5px auto 30px;
+}
+
+.main-discount__img {
+    margin-left: 115px;
+}
+
+.main-description {
+    margin-left: 75px;
+    text-align: right;
+}
+
+.main-description__location {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.main-description__title {
+    margin: 55px 0 20px;
+
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+
+.main-description__text {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.main-description__button {
+    display: inline-block;
+    background-color: #BA936B;
+    filter: drop-shadow(3px 2px 19px rgba(255, 255, 255, 0.45));
+
+    padding: 16px 44px 17px;
+    margin-top: 73px;
+}
+
+.main-description__button a{
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+.points {
+    margin: 20px auto 0;
+    width: 156px;
+    display: flex;
+    justify-content: space-between;
+}

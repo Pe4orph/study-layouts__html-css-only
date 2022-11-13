@@ -1,0 +1,55 @@
+
+.champions {
+    margin-top: 80px;
+    display: flex;
+}
+
+.champions-container {
+    margin: 0 auto;
+    width: 1280px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.champions__arrow {
+    display: flex;
+    justify-content: space-around;
+    border:2px solid #ED692A;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+}
+
+.champions__title {
+    margin: 50px 0;
+    height: 73px;
+
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+.champions__photos > * + * {
+    margin-left: 10px;
+}
+
+.champions__text {
+    margin: 95px auto 160px;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.71;
+
+    text-align: center;
+}
+
+.champions__foot {
+    color: rgba(255, 255, 255, 0.41);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.71;
+
+    text-align: center;
+}
